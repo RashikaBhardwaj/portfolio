@@ -6,6 +6,8 @@ import Services from "./Services/Services";
 import Myproject from "./My projects/Myproject";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
+import Bubblebackground from "./bubbles/BubbleBackground";
+
 
 const Home =()=>{
     return(
@@ -17,6 +19,7 @@ const Home =()=>{
         <Myproject/>
         <Contact/>
         <Footer/>
+        <Bubblebackground/>
         </>
     )
 }
