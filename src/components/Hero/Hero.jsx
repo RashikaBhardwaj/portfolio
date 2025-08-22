@@ -3,6 +3,7 @@ import './Hero.css'
 import profile from './me.jpg'
 import { NavLink } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter';
+import BubbleBackground from "../bubbles/BubbleBackground";
 
 const Hero =()=>{
     return(
@@ -35,7 +36,9 @@ const Hero =()=>{
                 <div ><a download="" href="src/assets/resume rashika.pdf"className="hero-resume" >My resume</a></div>
 
             </div>
+                        <BubbleBackground/>
         </div>
+        
     )
 }
 export default Hero
