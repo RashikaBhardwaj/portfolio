@@ -75,3 +75,97 @@
   position: relative;
   z-index: 1; /* keeps text above bubbles */
 }
+
+
+/* ===================== */
+/* Responsive Hero       */
+/* ===================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .hero h1 {
+    width: 80%;
+    font-size: 45px;
+  }
+
+  .hero p {
+    width: 70%;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .hero-action {
+    font-size: 20px;
+    gap: 20px;
+  }
+
+  .hero-connect,
+  .hero-resume {
+    padding: 20px 40px;
+    font-size: 18px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  .hero {
+    height: auto;       /* allow hero to grow */
+    padding: 40px 20px; /* add spacing */
+  }
+
+  .hero img {
+    margin-top: 40px;
+    width: 200px;  /* scale down image */
+  }
+
+  .hero h1 {
+    width: 100%;
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .hero p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .hero-action {
+    flex-direction: column; /* stack buttons */
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .hero-connect,
+  .hero-resume {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    padding: 18px 30px;
+    font-size: 16px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .hero img {
+    margin-top: 20px;
+    width: 150px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .hero p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .hero-connect,
+  .hero-resume {
+    padding: 15px 25px;
+    font-size: 14px;
+  }
+}

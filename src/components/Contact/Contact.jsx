@@ -44,7 +44,7 @@ Always eager to collaborate, I’m open to freelance projects, partnerships, or 
                             <img src={mail} alt="" /><p>rashikabhardwaj@gmail.com</p>
                         </div>
                         <div className="contact-detail">
-                            <img src={phone} alt="" /><p>+91 368-955-471</p>
+                            <img src={phone} alt="" /><p>+91 9466160206</p>
                         </div>
                         <div className="contact-detail">
                             <img src={location} alt="" /><p>LIET, Alwar Rajasthan</p>

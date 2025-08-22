@@ -114,6 +114,9 @@
     font-size: 16px;
     max-width: 100%;
   }
+  .footer-top-left img{
+    display: none;
+  }
 
   .footer-top-right {
     flex-direction: column;   /* stack input + button */
@@ -125,6 +128,9 @@
     width: 100%;
     padding: 12px 20px;
     justify-content: space-between;
+  }
+  .email-input img{
+    display: none;
   }
 
   .email-input input {
@@ -151,6 +157,7 @@
     justify-content: center;
     margin-bottom: 20px;
   }
+  
 }
 
 /* Very small phones */
