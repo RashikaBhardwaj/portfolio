@@ -1,0 +1,74 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.services-title{
+    position: relative;
+}
+.services-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.about-frontend{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+    cursor: pointer; 
+    margin-left: 100px;  
+    margin-right: 100px; 
+}
+.about-frontend h1{
+    font-size: 50px;
+    background: linear-gradient(270deg,#df8908 50%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-list{
+    list-style: none;
+    font-size: 22px;
+    font-weight: 500;
+}
+.list1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+}
+.list1 hr{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.list2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    
+}
+.list2 hr{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.frontend{
+    display: flex;
+}
+.about-list:hover{
+    background-image: linear-gradient(270deg,#df8908 50%, #b415ff 100%);
+    transform: scale(1.05);
+    transition: 0.4s;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+

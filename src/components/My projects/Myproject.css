@@ -1,0 +1,55 @@
+.mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.mywork-title{
+    position: relative;
+}
+.mywork-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.mywork-containers{
+    display: flex;
+}
+.mywork-container{
+    margin-left: 20px;
+    margin-right: 50px;
+    border: 8px solid #c5c3c3;
+    padding: 40px;
+    border-radius: 100px;
+}
+.mywork-container h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.button{
+    padding: 15px 15px;
+    border-radius: 35px;
+    border: 2px solid #c5c3c3;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100px;
+    margin-left: 170px;
+
+}
+.button:hover{
+    background: linear-gradient(270deg,#Df8908 10%,#B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.05);
+}
+.mywork-container img{
+    border-radius: 60px;
+}
+
+ 
