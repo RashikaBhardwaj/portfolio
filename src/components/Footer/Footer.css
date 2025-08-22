@@ -59,3 +59,128 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+
+/* ===================== */
+/* Responsive Footer     */
+/* ===================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .footer {
+    margin: 40px 80px;
+    gap: 25px;
+  }
+
+  .footer-top-left p {
+    font-size: 18px;
+    max-width: 300px;
+  }
+
+  .email-input {
+    gap: 20px;
+    padding: 15px 25px;
+    padding-right: 60px;
+  }
+
+  .footer-subscribe {
+    font-size: 18px;
+    padding: 18px 40px;
+  }
+
+  .footer-bottom {
+    font-size: 16px;
+  }
+
+  .footer-bottom-right {
+    gap: 30px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  .footer {
+    margin: 30px 30px;
+    gap: 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;   /* stack top left + right */
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-top-left p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .footer-top-right {
+    flex-direction: column;   /* stack input + button */
+    gap: 15px;
+    width: 100%;
+  }
+
+  .email-input {
+    width: 100%;
+    padding: 12px 20px;
+    justify-content: space-between;
+  }
+
+  .email-input input {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .footer-subscribe {
+    font-size: 16px;
+    padding: 15px 30px;
+    width: fit-content;
+  }
+
+  .footer-bottom {
+    flex-direction: column;   /* stack bottom left + right */
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+  }
+
+  .footer-bottom-right {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .footer {
+    margin: 20px 15px;
+    gap: 15px;
+  }
+
+  .footer-top-left p {
+    font-size: 14px;
+  }
+
+  .email-input {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 15px;
+  }
+
+  .footer-subscribe {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+    gap: 10px;
+  }
+
+  .footer-bottom-right {
+    gap: 15px;
+  }
+}
