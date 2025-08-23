@@ -9,8 +9,8 @@ import "./Myproject.css";
 import p1_img from "./one.jpg";
 import p2_img from "./two.jpg";
 import p3_img from "./three.jpg";
-import p4_img from "./four.jpg"; // extra project
-
+import p4_img from "./four.jpg"; 
+import p5_img from "./five.jpg";
 const projects = [
   {
     id: 1,
@@ -21,24 +21,31 @@ const projects = [
   },
   {
     id: 2,
-    title: "Project Two",
+    title: "To-Do-List-App",
     img: p2_img,
-    desc: "An interactive game built with React, focusing on state management.",
-    link: "https://github.com/yourusername/project-two",
+    desc: "A to-do-list containg site built with React, focusing on task management.",
+    link: "https://to-do-list-pp1.netlify.app/",
   },
   {
     id: 3,
-    title: "Project Three",
+    title: "Image Slider",
     img: p3_img,
-    desc: "A full-stack project with backend integration and authentication.",
-    link: "https://github.com/yourusername/project-three",
+    desc: "A small image slider component project with css and html.",
+    link: "https://image-sliderpp3.netlify.app/",
   },
   {
     id: 4,
-    title: "Project Four",
+    title: "Hang-Man Game",
     img: p4_img,
-    desc: "An e-commerce website with product management and payment integration.",
-    link: "https://github.com/yourusername/project-four",
+    desc: "A Hangman Quiz game website with interactive UI with hints and random questions.",
+    link: "https://hangman-pp4.netlify.app/",
+  },
+   {
+    id: 5,
+    title: "Tic-Tac-toe Game",
+    img: p5_img,
+    desc: "A Tic-tac-toe game website with interactive UI design.",
+    link: "https://tic-tac-toe-pp5.netlify.app/",
   },
 ];
 

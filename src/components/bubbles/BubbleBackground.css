@@ -1,46 +1,38 @@
-/* Container only takes hero section size */
 .bubble-background {
-  position: absolute; /* stays inside Hero */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; /* fills only Hero */
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
   overflow: hidden;
-  z-index: 0; /* stays behind Hero content */
 }
 
-/* Bubble styles */
-.bubble {
+.bubble-background .bubble {
   position: absolute;
-  bottom: -100px;
-  width: var(--size);
-  height: var(--size);
-  left: var(--left);
+  bottom: 0;
+  width: var(--size, 50px);       /* default 50px if var missing */
+  height: var(--size, 50px);
+  left: var(--left, 50%);
+  background: rgba(255, 200, 0, 0.3); /* more visible on black */
   border-radius: 50%;
-  animation: rise var(--duration) linear infinite;
-  animation-delay: var(--delay);
-
-  background: radial-gradient(
-    circle at 30% 30%,
-    rgba(0, 191, 255, 0.8),   /* Deep Sky Blue */
-    rgba(0, 128, 255, 0.6),   /* Ocean Blue */
-    rgba(0, 64, 128, 0.4)     /* Dark Blue */
-  );
-
-  box-shadow: inset -4px -6px 12px rgba(255, 255, 255, 0.3),
-              inset 4px 6px 14px rgba(0, 0, 0, 0.4);
+  animation: float var(--duration, 30s) linear infinite;
+  animation-delay: var(--delay, 0s);
+  pointer-events: none;
 }
 
-@keyframes rise {
+/* Floating animation */
+@keyframes float {
   0% {
-    transform: translateY(0) scale(1);
-    opacity: 0.5;
+    transform: translateY(0) scale(0.5);
+    opacity: 0.6;
   }
   50% {
-    opacity: 0.9;
+    opacity: 0.8;
   }
   100% {
-    transform: translateY(-120vh) scale(1.2);
+    transform: translateY(-120vh) scale(1.1);
     opacity: 0;
   }
 }
