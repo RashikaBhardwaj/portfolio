@@ -11,6 +11,7 @@ import p2_img from "./two.jpg";
 import p3_img from "./three.jpg";
 import p4_img from "./four.jpg"; 
 import p5_img from "./five.jpg";
+import p6_img from "six.jpg";
 const projects = [
   {
     id: 1,
@@ -46,6 +47,13 @@ const projects = [
     img: p5_img,
     desc: "A Tic-tac-toe game website with interactive UI design.",
     link: "https://tic-tac-toe-pp5.netlify.app/",
+  },
+   {
+    id: 6,
+    title: "Quick-Ai-Saas",
+    img: p6_img,
+    desc: "A Quick-Ai website with interactive UI design and the AI integration Tools.",
+    link: "https://quick-ai-client-xi.vercel.app/",
   },
 ];
 
